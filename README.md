@@ -56,13 +56,9 @@ The newly generated labeled data, derived from this approach, will be used to re
 |------------------------------|-----------------------|
 | ![RGB Image](./images/image_labelled_image.png) | ![NDWI Image](./images/image_all_sliding_windows_labelled.png) |
 
-| **5. Calculate the Threshold Using Otsu** |
-|--------------------------------------------|
-| <div style="text-align: center;"><img src="./images/image_labelled_image.png" alt="Labelled Image" style="width: 100%; max-width: 500px;"/></div> |
-
-| **6. Repeat This Step for All Sliding Windows** |
-|--------------------------------------------------|
-| <div style="text-align: center;"><img src="./images/image_all_sliding_windows_labelled.png" alt="All Sliding Windows Labelled" style="width: 80%; max-width: 500px;"/></div> |
+| **5. Calculate the Threshold Using Otsu** | **6. Repeat This Step for All Sliding Windows** |
+|--------------------------------------------|--------------------------------------------------|
+| <img src="./images/image_labelled_image.png" alt="Labelled Image" style="width: 70%; max-width: 500px;"/> | <img src="./images/image_all_sliding_windows_labelled.png" alt="All Sliding Windows Labelled" style="width: 30%; max-width: 300px;"/> |
 
 | **7. Label Unsegmented Pixels** |
 |----------------------------------|
