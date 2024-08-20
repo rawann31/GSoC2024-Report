@@ -58,7 +58,7 @@ The newly generated labeled data, derived from this approach, will be used to re
 
 | **5. Calculate the Threshold Using Otsu** |
 |--------------------------------------------|
-| <div style="text-align: center;"><img src="./images/image_labelled_image.png" alt="Labelled Image" style="width: 80%; max-width: 500px;"/></div> |
+| <div style="text-align: center;"><img src="./images/image_labelled_image.png" alt="Labelled Image" style="width: 100%; max-width: 500px;"/></div> |
 
 | **6. Repeat This Step for All Sliding Windows** |
 |--------------------------------------------------|
