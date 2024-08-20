@@ -73,7 +73,7 @@ The sliding window technique has significantly enhanced the accuracy of our imag
 The NDWI sliding window technique has demonstrated superior performance, achieving the lowest RMSE and thereby providing the most accurate segmentation results.
 | **RGB before** | **Segmented Image After** |
 |------------------------------|-----------------------|
-| ![RGB Image](./images/image_rgb.png) | ![Segmented Image After](./images/image_ndwi.png) |
+| ![RGB Image](./images/image_rgb.png) | ![Segmented Image After](./images/ndwi_concatenated.png) |
 
 
 ## Commits
