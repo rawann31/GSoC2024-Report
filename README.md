@@ -42,8 +42,14 @@ The newly generated labeled data, derived from this approach, will be used to re
 ## Download and Segmentation Flow
 
 <div style="display: flex; align-items: flex-start;">
-  <img src="./images/download_flow.jpg" alt="Download Flow" style="width: 48%;"/>
-  <img src="./images/ndwi_flow.jpg" alt="Segmentation Flow" style="width: 48%; margin-right: 2%;"/>
+  <div style="flex: 1; text-align: center;">
+    <img src="./images/download_flow.jpg" alt="Download Flow" style="width: 100%;"/>
+    <div>Download Flow</div>
+  </div>
+  <div style="flex: 1; text-align: center;">
+    <img src="./images/ndwi_flow.jpg" alt="Segmentation Flow" style="width: 100%;"/>
+    <div>NDWI Flow</div>
+  </div>
 </div>
 
 
