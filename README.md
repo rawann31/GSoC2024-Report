@@ -39,24 +39,9 @@ The newly generated labeled data, derived from this approach, will be used to re
 | **Gaussian Smoothing (Optional)**         | Incorporated optional Gaussian filtering before NDWI calculation to smooth the image and reduce noise. This step improves water body detection by mitigating noise effects, allowing users to apply it based on input data quality. [View Code](#)                                                                                                              |
 | **Concatenation of Sliding Window and Mean Threshold Images** | Merged results from sliding window classification with a mean threshold image. This approach addresses unclassified regions by combining sliding window outputs with mean threshold-based classification, ensuring comprehensive segmentation and improved accuracy. [View Code](#)                                                          |
 
-## Download and Segmentation Flow
 
-<div style="display: flex; align-items: flex-start;">
-  <div style="flex: 1; text-align: center;">
-    <img src="./images/download_flow.jpg" alt="Download Flow" style="width: 100%;"/>
-    <div>Download Flow</div>
-  </div>
-  <div style="flex: 1; text-align: center;">
-    <img src="./images/ndwi_flow.jpg" alt="Segmentation Flow" style="width: 100%;"/>
-    <div>NDWI Flow</div>
-  </div>
-</div>
-
-## Processing Steps
-
-1. **Read the Planet Image**
-
-2. **Calculate NDWI**
+1. **Read the Planet Image**  
+2. **Calculate NDWI**  
 
    <div style="display: flex; align-items: flex-start;">
      <div style="flex: 1; text-align: center;">
@@ -69,8 +54,7 @@ The newly generated labeled data, derived from this approach, will be used to re
      </div>
    </div>
 
-3. **Make Buffer Around Each Point**
-
+3. **Make Buffer Around Each Point**  
 4. **Skip Buffers Most of It Outside the Image**
 
    <div style="display: flex; align-items: flex-start;">
