@@ -6,7 +6,7 @@
 ### **Title:** Automated Coastline Extraction for Erosion Modeling in Alaska  
 ### **Mentor:** Frank Witmer
 
-## Basic Info
+| Info             | Details                                  |
 |------------------|------------------------------------------|
 | **Name**         | Rawan Mohammed Elframawy                 |
 | **Email**        | [rawann.elframawy@gmail.com](mailto:rawann.elframawy@gmail.com) |
