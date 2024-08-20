@@ -8,6 +8,8 @@
 
 
 ## Basic Info
+| Info             | Details                                  |
+|------------------|------------------------------------------|
 | **Name**         | Rawan Mohammed Elframawy                 |
 | **Email**        | [rawann.elframawy@gmail.com](mailto:rawann.elframawy@gmail.com) |
 | **GitLab Username** | [rawann31](https://gitlab.com/rawann31) |
