@@ -68,7 +68,7 @@ The sliding window technique has significantly enhanced the accuracy of our imag
 
 - **Root Mean Square Error (RMSE) for GSW**: 72.16
 - **RMSE for Single-Threshold Method**: 19.744
-- **RMSE for NDWI Sliding Window Technique**: 12
+- **RMSE for NDWI Sliding Window Technique**: 12.9
 
 The NDWI sliding window technique has demonstrated superior performance, achieving the lowest RMSE and thereby providing the most accurate segmentation results.
 
