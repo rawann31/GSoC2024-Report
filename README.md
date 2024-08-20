@@ -41,26 +41,66 @@ The newly generated labeled data, derived from this approach, will be used to re
 
 ## Processing Steps
 
-| **1. Read the Planet Image** | **2. Calculate NDWI** |
-|------------------------------|-----------------------|
-| ![RGB Image](./images/image_rgb.png) | ![NDWI Image](./images/image_ndwi.png) |
+<div style="text-align: center;">
 
-| **3. Make Buffer Around Each Point** | **4. Skip Buffers Most of It Outside the Image** |
-|--------------------------------------|-----------------------------------------------|
-| ![Buffers Image](./images/image_buffers.png) | ![Skipped Buffers Image](./images/image_skipped_buffers.png) |
+<table style="margin: auto;">
+  <tr>
+    <th>**1. Read the Planet Image**</th>
+    <th>**2. Calculate NDWI**</th>
+  </tr>
+  <tr>
+    <td><img src="./images/image_rgb.png" alt="RGB Image" style="width: 80%; max-width: 400px;"/></td>
+    <td><img src="./images/image_ndwi.png" alt="NDWI Image" style="width: 80%; max-width: 400px;"/></td>
+  </tr>
+</table>
 
-| **5. Calculate the Threshold Using Otsu** |
-|--------------------------------------------|
-| <div style="text-align: center;"><img src="./images/image_labelled_image.png" alt="Labelled Image" style="width: 80%; max-width: 500px;"/></div> |
+<br>
 
-| **6. Repeat This Step for All Sliding Windows** |
-|--------------------------------------------------|
-| <div style="text-align: center;"><img src="./images/image_all_sliding_windows_labelled.png" alt="All Sliding Windows Labelled" style="width: 80%; max-width: 500px;"/></div> |
+<table style="margin: auto;">
+  <tr>
+    <th>**3. Make Buffer Around Each Point**</th>
+    <th>**4. Skip Buffers Most of It Outside the Image**</th>
+  </tr>
+  <tr>
+    <td><img src="./images/image_buffers.png" alt="Buffers Image" style="width: 80%; max-width: 400px;"/></td>
+    <td><img src="./images/image_skipped_buffers.png" alt="Skipped Buffers Image" style="width: 80%; max-width: 400px;"/></td>
+  </tr>
+</table>
 
-| **7. Label Unsegmented Pixels** |
-|----------------------------------|
-| <div style="text-align: center;"><img src="./images/results_sliding_concatenated.png" alt="Sliding Concatenated Results" style="width: 80%; max-width: 500px;"/></div>
+<br>
 
+<table style="margin: auto;">
+  <tr>
+    <th>**5. Calculate the Threshold Using Otsu**</th>
+  </tr>
+  <tr>
+    <td><img src="./images/image_labelled_image.png" alt="Labelled Image" style="width: 80%; max-width: 500px;"/></td>
+  </tr>
+</table>
+
+<br>
+
+<table style="margin: auto;">
+  <tr>
+    <th>**6. Repeat This Step for All Sliding Windows**</th>
+  </tr>
+  <tr>
+    <td><img src="./images/image_all_sliding_windows_labelled.png" alt="All Sliding Windows Labelled" style="width: 80%; max-width: 500px;"/></td>
+  </tr>
+</table>
+
+<br>
+
+<table style="margin: auto;">
+  <tr>
+    <th>**7. Label Unsegmented Pixels**</th>
+  </tr>
+  <tr>
+    <td><img src="./images/results_sliding_concatenated.png" alt="Sliding Concatenated Results" style="width: 80%; max-width: 500px;"/></td>
+  </tr>
+</table>
+
+</div>
 
 ## Commits
 
