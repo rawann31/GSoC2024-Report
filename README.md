@@ -82,6 +82,9 @@ The NDWI sliding window technique has demonstrated superior performance, achievi
 | Update `date_sort` function                                           | [PR #18](https://github.com/fwitmer/CoastlineExtraction/pull/18) |
 | Update to `merge_ids` function                                         | [PR #19](https://github.com/fwitmer/CoastlineExtraction/pull/19) |
 | Adding additional imports, URLs, functions, enhance Documentation     | [PR #23](https://github.com/fwitmer/CoastlineExtraction/pull/23) |
+| Update `ndwi_labels.py`, change the value of `clip` and `nodata` parameters | [PR #25](https://github.com/fwitmer/CoastlineExtraction/pull/25) |
+| Update `ndwi_labels.py`, add comments and blurring function (Optional) | [PR #26](https://github.com/fwitmer/CoastlineExtraction/pull/26) |
+| Standardized capitalization for named constants                       | [PR #28](https://github.com/fwitmer/CoastlineExtraction/pull/28) |
 
 
 ## Future Work
