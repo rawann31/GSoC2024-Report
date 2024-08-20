@@ -60,16 +60,7 @@ The newly generated labeled data, derived from this approach, will be used to re
 
 | **7. Label Unsegmented Pixels** |
 |----------------------------------|
-| <div style="text-align: center;"><img src="./images/results_sliding_concatenated.png" alt="Sliding Concatenated Results" style="width: 100%; max-width: 800px;"/></div>
-
-
-
-## Contribution
-
-| **Contribution**                                                                                 | **Description**                                                                                                                                                                                                                                                                                                                                             |
-|--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Rewrite the RMSE Code**                                                                      | In the second version that I made, the RMSE calculation was streamlined by centralizing it in the `calc_transects_rmse` function, improving readability. The code now utilizes list comprehensions and `itertuples()` for more efficient distance calculations and consolidates CRS reprojecting and shapefile loading. Additionally, region-based RMSE calculations are handled directly in the main script, reducing redundancy and enhancing clarity. [Code Link](#) |
-| **Upgrade Global Surface Water Mapping from V3 to V4 and a Function to Download It to Disk** | I upgraded the version of GSW from version 3 to version 4. I used the `geemap` library to download images to disk. [Code Link](#)                                                                                                                                                                                                                             |
+| <div style="text-align: center;"><img src="./images/results_sliding_concatenated.png" alt="Sliding Concatenated Results" style="width: 100%; max-width: 800px;"/></div>                                                                                                                                                                                                                        |
 
 
 
