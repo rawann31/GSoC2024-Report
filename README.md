@@ -60,7 +60,7 @@ The newly generated labeled data, derived from this approach, will be used to re
 
 | **7. Label Unsegmented Pixels** |
 |----------------------------------|
-| <div style="text-align: center;"><img src="./images/results_sliding_concatenated.png" alt="Sliding Concatenated Results" style="width: 100%; max-width: 800px;"/></div>                                                                                                                                                                                                                        |
+| <div style="text-align: center;"><img src="./images/ndwi_concatenated.png" alt="Sliding Concatenated Results" style="width: 100%; max-width: 800px;"/></div>                                                                                                                                                                                                                        |
 
 ## Current State
 
@@ -71,6 +71,9 @@ The sliding window technique has significantly enhanced the accuracy of our imag
 - **RMSE for NDWI Sliding Window Technique**: 12.9
 
 The NDWI sliding window technique has demonstrated superior performance, achieving the lowest RMSE and thereby providing the most accurate segmentation results.
+| **RGB before** | **Segmented Image After** |
+|------------------------------|-----------------------|
+| ![RGB Image](./images/image_rgb.png) | ![Segmented Image After](./images/image_ndwi.png) |
 
 
 ## Commits
