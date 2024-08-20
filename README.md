@@ -58,7 +58,7 @@ The newly generated labeled data, derived from this approach, will be used to re
 
 | **7. Label Unsegmented Pixels** |
 |----------------------------------|
-| <div style="text-align: center;"><img src="./images/results_sliding_concatenated.png" alt="Sliding Concatenated Results" style="width: 80%; max-width: 700px;"/></div>
+| <div style="text-align: center;"><img src="./images/results_sliding_concatenated.png" alt="Sliding Concatenated Results" style="width: 90%; max-width: 700px;"/></div>
 
 ## Commits
 
