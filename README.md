@@ -39,11 +39,11 @@ The newly generated labeled data, derived from this approach, will be used to re
 | **Gaussian Smoothing (Optional)**         | Incorporated optional Gaussian filtering before NDWI calculation to smooth the image and reduce noise. This step improves water body detection by mitigating noise effects, allowing users to apply it based on input data quality. [View Code](#)                                                                                                              |
 | **Concatenation of Sliding Window and Mean Threshold Images** | Merged results from sliding window classification with a mean threshold image. This approach addresses unclassified regions by combining sliding window outputs with mean threshold-based classification, ensuring comprehensive segmentation and improved accuracy. [View Code](#)                                                          |
 
-## NDWI and Download Flow
+## Download and Segmentation Flow
 
 <div style="display: flex; align-items: flex-start;">
-  <img src="./images/ndwi_flow.jpg" alt="Segmentation Flow" style="width: 48%; margin-right: 2%;"/>
   <img src="./images/download_flow.jpg" alt="Download Flow" style="width: 48%;"/>
+  <img src="./images/ndwi_flow.jpg" alt="Segmentation Flow" style="width: 48%; margin-right: 2%;"/>
 </div>
 
 
