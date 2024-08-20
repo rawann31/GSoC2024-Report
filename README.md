@@ -41,25 +41,26 @@ The newly generated labeled data, derived from this approach, will be used to re
 
 ## Processing Steps
 
-| **Read the Planet Image** | **Calculate NDWI** |
-|---------------------------|---------------------|
+| **1. Read the Planet Image** | **2. Calculate NDWI** |
+|------------------------------|-----------------------|
 | ![RGB Image](./images/image_rgb.png) | ![NDWI Image](./images/image_ndwi.png) |
 
-| **Make Buffer Around Each Point** | **Skip Buffers Most of It Outside the Image** |
-|-----------------------------------|-----------------------------------------------|
+| **3. Make Buffer Around Each Point** | **4. Skip Buffers Most of It Outside the Image** |
+|--------------------------------------|-----------------------------------------------|
 | ![Buffers Image](./images/image_buffers.png) | ![Skipped Buffers Image](./images/image_skipped_buffers.png) |
 
-| **Calculate the Threshold Using Otsu**  |
-|-----------------------------------------|
-| ![Labelled Image](./images/image_labelled_image.png) |
+| **5. Calculate the Threshold Using Otsu** |
+|--------------------------------------------|
+| <div style="text-align: center;"><img src="./images/image_labelled_image.png" alt="Labelled Image" style="width: 80%; max-width: 500px;"/></div> |
 
-| **Repeat This Step for All Sliding Windows** |
-|-------------------------------|
-| ![All Sliding Windows Labelled](./images/image_all_sliding_windows_labelled.png) |
+| **6. Repeat This Step for All Sliding Windows** |
+|--------------------------------------------------|
+| <div style="text-align: center;"><img src="./images/image_all_sliding_windows_labelled.png" alt="All Sliding Windows Labelled" style="width: 80%; max-width: 500px;"/></div> |
 
-| **Label Unsegmented Pixels** |
-|-------------------------------|
-| ![Sliding Concatenated Results](./images/results_sliding_concatenated.png) |
+| **7. Label Unsegmented Pixels** |
+|----------------------------------|
+| <div style="text-align: center;"><img src="./images/results_sliding_concatenated.png" alt="Sliding Concatenated Results" style="width: 80%; max-width: 500px;"/></div>
+
 
 ## Commits
 
