@@ -1,3 +1,5 @@
+![GSoC logo](https://developers.google.com/open-source/gsoc/resources/downloads/GSoC-logo-horizontal.svg)
+
 <!DOCTYPE html>
 <html lang="en">
 
