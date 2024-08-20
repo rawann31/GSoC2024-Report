@@ -62,8 +62,15 @@ The newly generated labeled data, derived from this approach, will be used to re
 |----------------------------------|
 | <div style="text-align: center;"><img src="./images/results_sliding_concatenated.png" alt="Sliding Concatenated Results" style="width: 100%; max-width: 800px;"/></div>                                                                                                                                                                                                                        |
 
+## Current State
 
+The sliding window technique has significantly enhanced the accuracy of our image segmentation approach. This method provides a more accurate and robust way to segment images, outperforming both the Global Surface Water Mapping (GSW) approach and the single-threshold method. 
 
+- **Root Mean Square Error (RMSE) for GSW**: 72.16
+- **RMSE for Single-Threshold Method**: 19.744
+- **RMSE for NDWI Sliding Window Technique**: 12
+
+The NDWI sliding window technique has demonstrated superior performance, achieving the lowest RMSE and thereby providing the most accurate segmentation results.
 
 
 ## Commits
@@ -75,4 +82,13 @@ The newly generated labeled data, derived from this approach, will be used to re
 | Update `date_sort` function                                           | [PR #18](https://github.com/fwitmer/CoastlineExtraction/pull/18) |
 | Update to `merge_ids` function                                         | [PR #19](https://github.com/fwitmer/CoastlineExtraction/pull/19) |
 | Adding additional imports, URLs, functions, enhance Documentation     | [PR #23](https://github.com/fwitmer/CoastlineExtraction/pull/23) |
+
+
+## Future Work
+
+Future work involves publishing our results in a research paper to share the advancements made in coastline extraction using the sliding window technique. Additionally, we plan to train the DeepWaterMap algorithm with the newly generated labels to assess its effectiveness. This step will help validate the improvements and further enhance the algorithm's performance.
+
+## Acknowledgments
+
+I would like to extend my sincere gratitude to Professor Frank Witmer for his invaluable guidance, flexibility, and support throughout this project. His time and responsiveness have been greatly appreciated.
 
