@@ -85,6 +85,8 @@ The NDWI sliding window technique has demonstrated superior performance, achievi
 | Update `ndwi_labels.py`, change the value of `clip` and `nodata` parameters | [PR #25](https://github.com/fwitmer/CoastlineExtraction/pull/25) |
 | Update `ndwi_labels.py`, add comments and blurring function (Optional) | [PR #26](https://github.com/fwitmer/CoastlineExtraction/pull/26) |
 | Standardized capitalization for named constants                       | [PR #28](https://github.com/fwitmer/CoastlineExtraction/pull/28) |
+| Update `rmse.py`                                                      | [PR #29](https://github.com/fwitmer/CoastlineExtraction/pull/29) |
+| Update GSW image collection & RMSE code                               | [PR #30](https://github.com/fwitmer/CoastlineExtraction/pull/30) |
 
 
 ## Future Work
