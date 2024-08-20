@@ -40,54 +40,31 @@ The newly generated labeled data, derived from this approach, will be used to re
 | **Concatenation of Sliding Window and Mean Threshold Images** | Merged results from sliding window classification with a mean threshold image. This approach addresses unclassified regions by combining sliding window outputs with mean threshold-based classification, ensuring comprehensive segmentation and improved accuracy. [View Code](#)                                                          |
 
 
-1. **Read the Planet Image**  
-2. **Calculate NDWI**  
+### 1. **Read the Planet Image**  
+### 2. **Calculate NDWI**
 
-   <div style="display: flex; align-items: flex-start;">
-     <div style="flex: 1; text-align: center;">
-       <img src="./images/image_rgb.png" alt="RGB Image" style="width: 45%;"/>
-       <div>RGB Image</div>
-     </div>
-     <div style="flex: 1; text-align: center;">
-       <img src="./images/image_ndwi.png" alt="NDWI Image" style="width: 45%;"/>
-       <div>NDWI Image</div>
-     </div>
-   </div>
+| **Read the Planet Image** | **Calculate NDWI** |
+|---------------------------|---------------------|
+| ![RGB Image](./images/image_rgb.png) | ![NDWI Image](./images/image_ndwi.png) |
 
-3. **Make Buffer Around Each Point**  
-4. **Skip Buffers Most of It Outside the Image**
+### 3. **Make Buffer Around Each Point**  
+### 4. **Skip Buffers Most of It Outside the Image**
 
-   <div style="display: flex; align-items: flex-start;">
-     <div style="flex: 1; text-align: center;">
-       <img src="./images/image_buffers.png" alt="Buffers Image" style="width: 45%;"/>
-       <div>Buffers Image</div>
-     </div>
-     <div style="flex: 1; text-align: center;">
-       <img src="./images/image_skipped_buffers.png" alt="Skipped Buffers Image" style="width: 45%;"/>
-       <div>Skipped Buffers Image</div>
-     </div>
-   </div>
+| **Make Buffer Around Each Point** | **Skip Buffers Most of It Outside the Image** |
+|-----------------------------------|-----------------------------------------------|
+| ![Buffers Image](./images/image_buffers.png) | ![Skipped Buffers Image](./images/image_skipped_buffers.png) |
 
-5. **Calculate the Threshold Using Otsu Then Segment the Image Based on This Threshold:**
+### 5. **Calculate the Threshold Using Otsu Then Segment the Image Based on This Threshold:**
 
-   <div style="text-align: center;">
-     <img src="./images/image_labelled_image.png" alt="Labelled Image" style="width: 60%;"/>
-     <div>Labelled Image</div>
-   </div>
+![Labelled Image](./images/image_labelled_image.png)
 
-6. **Repeat This Step for All Sliding Windows Until All Sliding Windows Are Segmented:**
+### 6. **Repeat This Step for All Sliding Windows Until All Sliding Windows Are Segmented:**
 
-   <div style="text-align: center;">
-     <img src="./images/image_all_sliding_windows_labelled.png" alt="All Sliding Windows Labelled" style="width: 60%;"/>
-     <div>All Sliding Windows Labelled</div>
-   </div>
+![All Sliding Windows Labelled](./images/image_all_sliding_windows_labelled.png)
 
-7. **Label Unsegmented Pixels from Sliding Windows Image from NDWI with One Threshold:**
+### 7. **Label Unsegmented Pixels from Sliding Windows Image from NDWI with One Threshold:**
 
-   <div style="text-align: center;">
-     <img src="./images/results_sliding_concatenated.png" alt="Sliding Concatenated Results" style="width: 60%;"/>
-     <div>Sliding Concatenated Results</div>
-   </div>
+![Sliding Concatenated Results](./images/results_sliding_concatenated.png)
 
 ## Commits
 
