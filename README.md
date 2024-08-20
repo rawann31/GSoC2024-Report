@@ -39,16 +39,11 @@ The newly generated labeled data, derived from this approach, will be used to re
 | **Gaussian Smoothing (Optional)**         | Incorporated optional Gaussian filtering before NDWI calculation to smooth the image and reduce noise. This step improves water body detection by mitigating noise effects, allowing users to apply it based on input data quality. [View Code](#)                                                                                                              |
 | **Concatenation of Sliding Window and Mean Threshold Images** | Merged results from sliding window classification with a mean threshold image. This approach addresses unclassified regions by combining sliding window outputs with mean threshold-based classification, ensuring comprehensive segmentation and improved accuracy. [View Code](#)                                                          |
 
-
-### 1. **Read the Planet Image**  
-### 2. **Calculate NDWI**
+## Processing Steps
 
 | **Read the Planet Image** | **Calculate NDWI** |
 |---------------------------|---------------------|
 | ![RGB Image](./images/image_rgb.png) | ![NDWI Image](./images/image_ndwi.png) |
-
-### 3. **Make Buffer Around Each Point**  
-### 4. **Skip Buffers Most of It Outside the Image**
 
 | **Make Buffer Around Each Point** | **Skip Buffers Most of It Outside the Image** |
 |-----------------------------------|-----------------------------------------------|
@@ -56,15 +51,17 @@ The newly generated labeled data, derived from this approach, will be used to re
 
 ### 5. **Calculate the Threshold Using Otsu Then Segment the Image Based on This Threshold:**
 
-![Labelled Image](./images/image_labelled_image.png)
-
 ### 6. **Repeat This Step for All Sliding Windows Until All Sliding Windows Are Segmented:**
-
-![All Sliding Windows Labelled](./images/image_all_sliding_windows_labelled.png)
 
 ### 7. **Label Unsegmented Pixels from Sliding Windows Image from NDWI with One Threshold:**
 
-![Sliding Concatenated Results](./images/results_sliding_concatenated.png)
+| **Calculate the Threshold Using Otsu** | **Repeat This Step for All Sliding Windows** |
+|-----------------------------------------|----------------------------------------------|
+| ![Labelled Image](./images/image_labelled_image.png) | ![All Sliding Windows Labelled](./images/image_all_sliding_windows_labelled.png) |
+
+| **Label Unsegmented Pixels** |
+|-------------------------------|
+| ![Sliding Concatenated Results](./images/results_sliding_concatenated.png) |
 
 ## Commits
 
