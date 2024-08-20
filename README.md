@@ -49,15 +49,13 @@ The newly generated labeled data, derived from this approach, will be used to re
 |-----------------------------------|-----------------------------------------------|
 | ![Buffers Image](./images/image_buffers.png) | ![Skipped Buffers Image](./images/image_skipped_buffers.png) |
 
-### 5. **Calculate the Threshold Using Otsu Then Segment the Image Based on This Threshold:**
+| **Calculate the Threshold Using Otsu**  |
+|-----------------------------------------|
+| ![Labelled Image](./images/image_labelled_image.png) |
 
-### 6. **Repeat This Step for All Sliding Windows Until All Sliding Windows Are Segmented:**
-
-### 7. **Label Unsegmented Pixels from Sliding Windows Image from NDWI with One Threshold:**
-
-| **Calculate the Threshold Using Otsu** | **Repeat This Step for All Sliding Windows** |
-|-----------------------------------------|----------------------------------------------|
-| ![Labelled Image](./images/image_labelled_image.png) | ![All Sliding Windows Labelled](./images/image_all_sliding_windows_labelled.png) |
+| **Repeat This Step for All Sliding Windows** |
+|-------------------------------|
+| ![All Sliding Windows Labelled](./images/image_all_sliding_windows_labelled.png) |
 
 | **Label Unsegmented Pixels** |
 |-------------------------------|
