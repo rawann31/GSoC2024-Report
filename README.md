@@ -1,6 +1,6 @@
 ![GSoC logo](https://developers.google.com/open-source/gsoc/resources/downloads/GSoC-logo-horizontal.svg)
 
-# GSoC - Final Evaluation
+# GSoC - Final Report
 
 ## Project
 ### **Title:** Automated Coastline Extraction for Erosion Modeling in Alaska  
