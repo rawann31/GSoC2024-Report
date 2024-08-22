@@ -43,7 +43,8 @@ The newly generated labeled data, derived from this approach, will be used to re
 | **Rewrite the RMSE Code**                                                                      | In the second version that I made, the RMSE calculation was streamlined by centralizing it in the `calc_transects_rmse` function, improving readability. The code now utilizes list comprehensions and `itertuples()` for more efficient distance calculations and consolidates CRS reprojecting and shapefile loading. Additionally, region-based RMSE calculations are handled directly in the main script, reducing redundancy and enhancing clarity. [View Code](https://github.com/fwitmer/CoastlineExtraction/blob/dev/rmse.py) |
 | **Upgrade Global Surface Water Mapping from V3 to V4 and a Function to Download It to Disk** | I upgraded the version of GSW from version 3 to version 4. I used the `geemap` library to download images to disk. [View Code](https://github.com/fwitmer/CoastlineExtraction/blob/dev/gsw_monthly_labels.py)    |
 
-
+## Downloding Script Flow:
+![Downloding Script Flow](./images/download_flow.jpg) 
 
 ## Processing Steps
 
