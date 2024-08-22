@@ -44,7 +44,9 @@ The newly generated labeled data, derived from this approach, will be used to re
 | **Upgrade Global Surface Water Mapping from V3 to V4 and a Function to Download It to Disk** | I upgraded the version of GSW from version 3 to version 4. I used the `geemap` library to download images to disk. [View Code](https://github.com/fwitmer/CoastlineExtraction/blob/dev/gsw_monthly_labels.py)    |
 
 ## Downloding Script Flow:
-<img src="./images/download_flow.jpg" alt="Downloading Script Flow" width="400"/>
+<div style="text-align: center;">
+  <img src="./images/download_flow.jpg" alt="Downloading Script Flow" width="500"/>
+</div>
 
 
 ## Processing Steps
