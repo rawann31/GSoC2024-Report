@@ -63,7 +63,7 @@ The newly generated labeled data, derived from this approach, will be used to re
 |------------------------------|-----------------------|
 | ![RGB Image](./images/image_labelled_image.png) | ![NDWI Image](./images/image_all_sliding_windows_labelled.png) |
 
-| **7. Label Unsegmented Pixels** |
+| **7. Label Unsegmented Pixels from NDWI with one threshold** |
 |---------------------------------|
 <p align="center">
   <img src="./images/image_all_sliding_windows_labelled.png" alt="NDWI Sliding Window" width="300" style="display:inline-block; margin-right:0px;" />
