@@ -65,8 +65,7 @@ The newly generated labeled data, derived from this approach, will be used to re
 
 | **7. Label Unsegmented Pixels** |
 |---------------------------------|
-| ![NDWI Sliding Window](./images/image_all_sliding_windows_labelled.png) | ![NDWI One Threshold](./images/image_ndwi_one_threshold.png) | ![NDWI Concatenated](./images/ndwi_concatenated.png) |
-
+| ![NDWI Sliding Window](./images/image_all_sliding_windows_labelled.png) ![NDWI One Threshold](./images/image_ndwi_one_threshold.png) ![NDWI Concatenated](./images/ndwi_concatenated.png) |
 
 ## Current State
 
