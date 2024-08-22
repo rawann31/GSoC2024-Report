@@ -106,6 +106,14 @@ The NDWI sliding window technique has demonstrated superior performance, achievi
 
 Future work involves publishing our results in a research paper to share the advancements made in coastline extraction using the sliding window technique. Additionally, we plan to train the DeepWaterMap algorithm with the newly generated labels to assess its effectiveness. This step will help validate the improvements and further enhance the algorithm's performance.
 
+## New Skills Learned
+
+During GSoC 2024, I picked up some valuable new skills:
+
+- **Open Source Contribution**: I learned to navigate open source projects, manage version control with GitHub.
+- **GIS Tools and Techniques**: I gained hands-on experience with QGIS, enhancing my ability to analyze and visualize geographic data.
+
+
 ## Acknowledgments
 
 I would like to extend my sincere gratitude to Professor Frank Witmer for his invaluable guidance, flexibility, and support throughout this project. His time and responsiveness have been greatly appreciated.
