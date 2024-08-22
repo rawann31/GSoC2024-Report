@@ -45,7 +45,7 @@ The newly generated labeled data, derived from this approach, will be used to re
 
 ## Downloding Script Flow:
 <div style="text-align: center;">
-  <img src="./images/download_flow.jpg" alt="Downloading Script Flow" width="500"/>
+  <img src="./images/download_flow.jpg" alt="Downloading Script Flow" width="700"/>
 </div>
 
 
