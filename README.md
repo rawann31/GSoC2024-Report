@@ -3,7 +3,7 @@
 # GSoC - Final Report
 
 ## Project
-### **Title:** Automated Coastline Extraction for Erosion Modeling in Alaska  
+### **Title:** Automated Coastline Extraction for Erosion Modeling  
 ### **Mentor:** Frank Witmer
 
 ## Basic Info
