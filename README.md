@@ -24,7 +24,12 @@ My name is Rawan, and I recently graduated with a degree in Computer Science, sp
 
 The primary goal of my Google Summer of Code project is to enhance the accuracy of coastline extraction, particularly for erosion modeling in Deering, Alaska, using high-resolution Planet imagery with a 3-meter resolution. The project focuses on creating reliable ground truth data and labels that will be used to train the [DeepWaterMap algorithm](https://github.com/isikdogan/deepwatermap), a deep convolutional neural network designed to segment surface water on multispectral imagery. Originally trained on 30-meter resolution Landsat data, DeepWaterMap will be adapted to work with higher-resolution data in this project.
 
-One of the key challenges in coastline extraction is the application of the Normalized Difference Water Index (NDWI), a widely used remote sensing index for identifying water bodies. However, using a single threshold across an entire image often results in suboptimal accuracy. To address this, I implemented a sliding window approach combined with Otsu thresholding, which dynamically adjusts thresholds over localized regions of the image. This method has shown promising improvements in accuracy.
+One of the key challenges in coastline extraction is the application of the Normalized Difference Water Index (NDWI), a widely used remote sensing index for identifying water bodies. However, using a single threshold across an entire image often results in suboptimal accuracy. To address this, I implemented a sliding window approach combined with Otsu thresholding, which dynamically adjusts thresholds over localized regions of the image. This method has shown promising improvements in accuracy. The second improvement is adding the distance matrix as additional bands of the input data so that the problem is viewed as a geometry learning problem rather than only a segmentation problem. I also edited the loss function to combine segmentation and distance regression objectives.
+
+### Loss Function
+The total loss is defined as:
+L_total = λ1 (L_Dice + L_BCE) + λ2 L_L1-distance
+
 
 The newly generated labeled data, derived from this approach, will be used to retrain the [DeepWaterMap algorithm](https://github.com/isikdogan/deepwatermap), replacing the original Global Surface Water data. This project aims to produce a more accurate and reliable tool for coastline detection, which is crucial for monitoring and mitigating coastal erosion in vulnerable areas like Alaska.
 
@@ -104,7 +109,7 @@ The NDWI sliding window technique has demonstrated superior performance, achievi
 
 ## Future Work
 
-Future work involves publishing our results in a research paper to share the advancements made in coastline extraction using the sliding window technique. Additionally, we plan to train the DeepWaterMap algorithm with the newly generated labels to assess its effectiveness. This step will help validate the improvements and further enhance the algorithm's performance.
+Future work involves publishing our results in a research paper to share the advancements made in coastline extraction using the sliding window technique.
 
 ## New Skills Learned
 
