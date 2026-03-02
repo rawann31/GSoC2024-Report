@@ -27,7 +27,9 @@ The primary goal of my Google Summer of Code project is to enhance the accuracy 
 One of the key challenges in coastline extraction is the application of the Normalized Difference Water Index (NDWI), a widely used remote sensing index for identifying water bodies. However, using a single threshold across an entire image often results in suboptimal accuracy. To address this, I implemented a sliding window approach combined with Otsu thresholding, which dynamically adjusts thresholds over localized regions of the image. This method has shown promising improvements in accuracy. The second improvement is adding the distance matrix as additional bands of the input data so that the problem is viewed as a geometry learning problem rather than only a segmentation problem. I also edited the loss function to combine segmentation and distance regression objectives.
 
 ### Loss Function
+
 The total loss is defined as:
+
 \[
 \mathcal{L}_{total} = \lambda_1 (\mathcal{L}_{Dice} + \mathcal{L}_{BCE}) + \lambda_2 \mathcal{L}_{L1-distance}
 \]
