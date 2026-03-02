@@ -30,9 +30,9 @@ One of the key challenges in coastline extraction is the application of the Norm
 
 The total loss is defined as:
 
-\[
+$$
 \mathcal{L}_{total} = \lambda_1 (\mathcal{L}_{Dice} + \mathcal{L}_{BCE}) + \lambda_2 \mathcal{L}_{L1-distance}
-\]
+$$
 
 The newly generated labeled data, derived from this approach, will be used to retrain the [DeepWaterMap algorithm](https://github.com/isikdogan/deepwatermap), replacing the original Global Surface Water data. This project aims to produce a more accurate and reliable tool for coastline detection, which is crucial for monitoring and mitigating coastal erosion in vulnerable areas like Alaska.
 
